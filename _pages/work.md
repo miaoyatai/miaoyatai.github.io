@@ -9,15 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-* Image caption generation algorithm based on attention mechanism
-  * Nov.2019-Present
-  * I used CNN to extract the features of the image, and then extract the first feature point of theimage through the Attention mechanism (select the one with the highest correlation).
+* Based on machine learning, the recognition of quantum state image and the regression analysis of magnetic field value are realized.
+  * May. 2019 - Oct. 2019
+  * Based on the Pytorch framework, I established an appropriate convolutional neural network for feature extraction and classification recognition of quantum state images. I optimized and adjusted the convolutional network structures of VGG16, VGG19 and 8-layers built by myself to find the network structure with the best recognition effect. On this basis, the magnetic field value regression analysis is carried out to predict the information represented by the new quantum state image.
  
  * Apply attention mechanism to singing voice separation
    * Aug. 2019 - Oct. 2019
-   * We  proposed  an  end-to-end  neural  network  based  on  self-attention  layer,  which  focuses  on  thesinging  voice  separation  task.   It  works  on  spectrogram  domain,  which  can  separate  songs  intoaccompaniments and vocals;
-   * Compared with the baselines, the evaluation metric of our model is greatly improved while the
-number of model parameters is significantly reduced.
+   * Based on the Pytorch framework, I built a deep residual network (ResNet), and conducted image classification experiments on Cifar10 and Cifar100 datasets respectively.Then continuously deepen the network to observe the model performance changes, find out resNet network deepening caused by the problem, and put forward the improvement plan.
 
 * MobileNet: A Lightweight Neural Network for Image Recognition
   * This is a lightweight network proposed by Google in 2017, and I tried to reproduce the network on my own for image recognition on CIFAR10 datasets with Pytorch, which only uses 10 layers of CNN without MaxPooling layer but achieved 92% accuracy.
