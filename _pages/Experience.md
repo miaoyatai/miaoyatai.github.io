@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-* Participated in the scientific research project "realizing the recognition of quantum state images by machine learning and the regression analysis of magnetic field values".
+* Participated in the scientific research project "Based on machine learning, the recognition of quantum state image and the regression analysis of magnetic field value are realized".
   * May. 2019 - Oct. 2019
   * Tianjin, China
   * Advisor: Ding Liu
-  * An appropriate convolutional neural network is built based on Pytorch framework for feature extraction and classification recognition of quantum state images.I debugged the VGG16, the VGG19 and the 8-layer convolutional network structure which built by myself to find the network structure with the optimal recognition effect.On this basis, the magnetic field value regression analysis is carried out to predict the information represented by the new quantum state image.
+  * Based on the Pytorch framework, I built a deep residual network (ResNet), and conducted image classification experiments on Cifar10 and Cifar100 datasets respectively.Then continuously deepen the network to observe the model performance changes, find out resNet network deepening caused by the problem, and put forward the improvement plan.
 * China Undergraduate Mathematical Contest in Modeling (CUMCM)
   * Sep. 2018
   * Tianjin, China
