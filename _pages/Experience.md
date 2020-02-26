@@ -14,6 +14,7 @@ redirect_from:
   * Tianjin, China
   * Advisor: Ding Liu
   * An appropriate convolutional neural network is built based on Pytorch framework for feature extraction and classification recognition of quantum state images.I debugged the VGG16, the VGG19 and the 8-layer convolutional network structure which built by myself to find the network structure with the optimal recognition effect.On this basis, the magnetic field value regression analysis is carried out to predict the information represented by the new quantum state image.
+* National college students mathematical contest in modeling
   * Sep. 2018
   * Tianjin, China
   * In the intelligent RGV scheduling problem, I was mainly responsible for programming, and I was also responsible for the discussion and establishment of the model with another person. For a given intelligent machining system, we set up optimization models of single objective and multi-objective under three conditions -- single operation, double operation and possible failure, and discussed dynamic scheduling of RGV.
